@@ -44,7 +44,8 @@ doSmth()
     return c;
   });
 ```
-## 3)
+## 3) Напишите функцию, которая будет проходить через массив целых чисел и выводить индекс каждого элемента с задержкой в 3 секунды.
+```
 const arr = [10, 12, 15, 21];
 
 let delayedLog = (mass) => {
@@ -56,7 +57,7 @@ let delayedLog = (mass) => {
 };
 
 delayedLog(arr);
-
+```
 ## БОНУС ЗАДАНИЕ
 ```
 async function fetchUrl(url, attemptsAmount = 5) {

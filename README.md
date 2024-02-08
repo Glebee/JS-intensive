@@ -58,6 +58,8 @@ let delayedLog = (mass) => {
 
 delayedLog(arr);
 ```
+## Прочитать про Top Level Await (можно ли использовать await вне функции async)
+Top Level Await (TLA) - это возможность использования оператора await вне функций, объявленных с ключевым словом async. Эта возможность была введена в ECMAScript 2020 (ES11). Благодаря TLA, можно использовать await на верхнем уровне вашего кода, например, в модульном коде или в REPL (Read-Eval-Print Loop).
 ## БОНУС ЗАДАНИЕ
 ```
 async function fetchUrl(url, attemptsAmount = 5) {
